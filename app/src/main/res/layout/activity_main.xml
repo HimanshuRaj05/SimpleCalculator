@@ -27,6 +27,7 @@
     <EditText
         android:id="@+id/etNum1"
         android:layout_width="200dp"
+        android:inputType="numberDecimal"
         android:layout_height="wrap_content"
         android:hint="Enter first number"
         android:layout_gravity="center"
@@ -38,6 +39,7 @@
 
     <EditText
         android:layout_width="200dp"
+        android:inputType="numberDecimal"
         android:layout_height="wrap_content"
         android:hint="Enter second number"
         android:layout_gravity="center"
@@ -118,6 +120,7 @@
         android:layout_gravity="center_horizontal"
         android:gravity="center"
         android:padding="10dp"
+        android:id="@+id/tvResult"
 
         />
 
